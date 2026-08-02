@@ -5,8 +5,4 @@ Thumbs.db
 # Chrome extension developer outputs / keys
 *.pem
 
-# Local drafts and diagnostics
-can-leave-source-v2.js
-*bookmarklet*.txt
-*.txt
 
