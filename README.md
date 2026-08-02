@@ -2,6 +2,8 @@
 
 A lightweight tool that runs on the Sharda Ezone Enrolled Course List page (`student.sharda.ac.in/admin/courses`). It reads the Delivered and Attended values already rendered in each subject row and injects a "Can Leave" column.
 
+![Sharda Attendance Helper Mockup](Sample%20Image%20of%20Attendance.png)
+
 This project offers two delivery mechanisms:
 1. **Chrome Extension (Desktop)**: Auto-injects and reacts to term tab switching.
 2. **Bookmarklet (Mobile)**: Since mobile Chrome doesn't support extensions, this runs the helper as a single-click bookmark on your phone.
@@ -13,9 +15,6 @@ This project offers two delivery mechanisms:
   - If Attendance &ge; 75%: displays the number of upcoming classes you may safely skip.
   - If Attendance &lt; 75%: displays the number of consecutive upcoming classes you must attend to climb back to 75%.
 - **Zero data edge-case handling**: displays `—` if Delivered classes are 0.
-- **Dynamic Layout Alignment**: 
-  - Top header (`Term: 2601`) stretches to the edge of the table.
-  - Bottom summary row (`97.50%`) aligns perfectly under the Percentage column.
 - **Privacy First**: Fully local, no login automation, no backend connection, no data storage.
 
 ---
