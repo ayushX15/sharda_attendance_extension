@@ -1,0 +1,76 @@
+/* popup/popup.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fafafa;
+  width: 280px;
+}
+
+.popup-container {
+  padding: 16px;
+}
+
+header h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #1a73e8;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+main {
+  margin-bottom: 16px;
+}
+
+.status-box {
+  background: #e8f0fe;
+  border: 1px solid #d2e3fc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.status-box p {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.url-hint {
+  display: block;
+  font-family: monospace;
+  font-size: 11px;
+  background: #fff;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #c3ecf6;
+  word-break: break-all;
+}
+
+.formula-box h4 {
+  margin: 0 0 6px 0;
+  font-size: 13px;
+  color: #5f6368;
+}
+
+.formula-box ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 12px;
+}
+
+.formula-box li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  color: #80868b;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 8px;
+}

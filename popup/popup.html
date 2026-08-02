@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header>
+      <h3>Sharda Attendance Helper</h3>
+    </header>
+    <main>
+      <div class="status-box">
+        <p>This extension runs automatically on the Sharda Courses page:</p>
+        <code class="url-hint">student.sharda.ac.in/admin/courses</code>
+      </div>
+      <div class="formula-box">
+        <h4>How it calculates:</h4>
+        <ul>
+          <li><strong>Attendance &ge; 75%:</strong> Shows upcoming classes you can safely skip.</li>
+          <li><strong>Attendance &lt; 75%:</strong> Shows consecutive upcoming classes you must attend to reach 75%.</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <span>Lightweight & Secure (Offline Calculations)</span>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
