@@ -2,7 +2,8 @@
 
 A lightweight tool that runs on the Sharda Ezone Enrolled Course List page (`student.sharda.ac.in/admin/courses`). It reads the Delivered and Attended values already rendered in each subject row and injects a "Can Leave" column.
 
-![Sharda Attendance Helper Mockup](Sample%20Image%20of%20Attendance.png)
+<img src="Sample Image of Attendance.png" alt="Sharda Attendance Helper Mockup" width="600">
+
 
 This project offers two delivery mechanisms:
 1. **Chrome Extension (Desktop)**: Auto-injects and reacts to term tab switching.
