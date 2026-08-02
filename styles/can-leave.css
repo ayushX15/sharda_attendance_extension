@@ -1,0 +1,37 @@
+/* styles/can-leave.css */
+
+.can-leave-cell {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.can-leave-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.85em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Stay >= 75% attendance */
+.can-leave-safe {
+  color: #1b5e20;
+  background-color: #e8f5e9;
+  border: 1px solid #c8e6c9;
+}
+
+/* Under 75% attendance, need to attend more */
+.can-leave-warning {
+  color: #b71c1c;
+  background-color: #ffebee;
+  border: 1px solid #ffcdd2;
+}
+
+/* Default / No Data */
+.can-leave-neutral {
+  color: #616161;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+}
