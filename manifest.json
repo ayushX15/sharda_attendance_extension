@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Sharda Attendance Helper",
+  "version": "1.0.0",
+  "description": "Calculates and displays attendance margin ('Can Leave') on the Sharda courses page.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://student.sharda.ac.in/admin/courses*"
+      ],
+      "js": ["content-scripts/inject-can-leave.js"],
+      "css": ["styles/can-leave.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
